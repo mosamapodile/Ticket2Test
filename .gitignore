@@ -1,0 +1,35 @@
+target/
+.idea/
+.vscode/
+*.iml
+*.log
+.DS_Store
+.env
+*.zip
+.env
+.env.*
+.build/
+node_modules/
+playwright-report/
+test-results/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# Java
+.build/
+target/
+*.class
+
+# Playwright
+node_modules/
+playwright-report/
+test-results/
+results.json
+
+# Temporary files
+startup.log
+sources.txt
